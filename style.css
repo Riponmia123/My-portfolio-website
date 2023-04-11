@@ -1,0 +1,617 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+span{
+    color: green;
+}
+/* header class start */
+.header-top{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    align-items: center;
+    padding: 10px 0;
+}
+.header-logo img{
+    width: 80px;
+}
+
+.header-menu{
+    justify-self: center;
+}
+.header-menu nav span{
+    display: none;
+}
+.header-menu ul{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    list-style-type: none;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: sans-serif;
+}
+.header-menu ul li a:hover{
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    transition: all 0.3s ease-out;
+}
+.header-btn{
+    justify-self: right;
+}
+.header-btn a{
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    font-family: sans-serif;
+}
+.header-btn a:hover{
+    border: 1px solid green;
+    background-color: #fff;
+    color: black;
+    transition: all 0.4s ease-in;
+}
+/* header class end */
+/* hero class start */
+.hero{
+    padding-top: 40px;
+    background-color: rgb(236, 235, 231);
+}
+
+.hero-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hero-content h4{
+    margin-bottom: 0;
+    font-size: 30px;
+}
+.hero-content h1{
+    margin-top: 5px;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.hero-content p{
+    margin-top: 5px;
+}
+.hero-btn{
+    padding-top: 30px;
+    font-family: sans-serif;
+}
+.hero-images{
+    justify-self: center;
+    margin-top: -75px;
+    padding-top: 30px;
+}
+
+/* hero class end */
+
+/* about class start */
+.about{
+    padding: 30px 0;
+}
+
+.about-top{
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.about h2{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+.about p{
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.about-top p{
+    text-align: left;
+}
+.about-left h1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.about-btn{
+    padding-top: 20px;
+}
+.about-middle{
+    padding-top: 90px;
+}
+.about-right img{
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+/* about class end */
+/* services class start */
+.services{
+    padding: 30px 0;
+    background-color: rgb(236, 235, 231);
+}
+
+.services h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 0;
+    font-family: sans-serif;
+}
+.services p{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 5px;
+    font-size: 22px;
+}
+.services-top img{
+    width: 80px;
+}
+.services-top{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+}
+.services-top p{
+    font-size: 18px;
+}
+.services-left{
+    padding: 40px 5px;
+    background-color: antiquewhite;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.services-left span a{
+    font-size: 30px;
+    color: rgb(49, 49, 49);
+    padding: 10px 0;
+}
+/* services class end */
+.process{
+    padding: 30px;
+}
+
+.process-top{
+    text-align: center;
+}
+.process-top h1{ 
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+.process-img1 h3{
+    margin-bottom: 0;
+}
+.process-img1 p{
+    margin-top: 0px;
+}
+.process-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    text-align: center;
+    grid-gap: 30px;
+    padding-top: 10px;
+
+}
+
+.process-img1 h2{
+    margin-bottom: 0;
+}
+.process-img1 p{
+   margin-top: 10px;
+}
+
+/* process class end */
+
+/* experience class start */
+.experience{
+    padding: 30px 0;
+    background-color: rgb(236, 235, 231);
+}
+.experience h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+.experience p{
+    margin-top: 5px;
+    text-align: center;
+}
+.experience-top{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.experience-top h3{
+    margin-bottom: 0;
+}
+.experience-top h6{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.experience-top p{
+    margin-top: 5px;
+    text-align: left;
+}
+.experience-left{
+    padding: 30px 10px;
+    background-color: antiquewhite;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+/* experience class end */
+
+/* portfolio class start */
+.portfolio{
+    padding: 30px 0;
+}
+.portfolio h1{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: sans-serif;
+}
+.portfolio p{
+    text-align: center;
+    margin-top: 5px;
+}
+.portfolio-top{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.my-1st-portfolio img{
+    padding: 30px 0;
+    width: 400px;
+}
+/* portfolio class end */
+
+/* pricing class start */
+.pricing{
+    padding: 30px 0;
+    background-color: rgb(236, 235, 231);
+}
+.pricing h1{
+    font-size: 45px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.pricing-top{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+.pricing-top h2{
+    margin-bottom: 0;
+}
+.pricing-top p{
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 30px;
+}
+.pricing-top span{
+    font-size: 25px;
+}
+/* pricing class end */
+
+/* touch class start */
+.touch{
+    padding: 30px 0;
+}
+.touch h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.touch p{
+    text-align: center;
+    margin-top: 5px;
+}
+.touch-top{
+    text-align: center;
+    padding: 50px 0;
+}
+.touch-top input{
+    padding: 10px 20px;
+    width: 350px;
+    border: 1px solid green;
+}
+/* touch class end */
+
+/* footer class start */
+.footer{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(158, 121, 73);
+}
+
+
+.footer-icon span{
+    display: inline;
+    padding: 0 10px;
+    font-size: 25px;
+}
+.footer-icon span a:hover{
+    color: green;
+}
+.footer-top{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer-icon span a{
+    color: rgb(255, 255, 255);
+}
+.footer-logo{
+    justify-self: center;
+}
+.footer-logo img{
+    width: 60px;
+}
+.footer-email{
+    justify-self: right;
+}
+.footer-email a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.footer-email a:hover{
+    color: green;
+}
+.footer p{
+    text-align: center;
+    color: white;
+}
+.footer p:hover{
+    color: green;
+}
+/* footer class end */
+
+
+
+/* responsive design start */
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    .header-top{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .header-btn{
+        display: none;
+    }
+    .header-menu ul{
+        display: none;
+    }
+    .header-menu nav span{
+        display: block;
+    }
+    .header-menu:hover ul {
+        display: block;
+    }
+    .header-menu:hover ul li{
+        padding: 10px 0;
+    }
+    
+    .header-top{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .header-btn{
+        display: none;
+    }
+    .header-menu ul{
+        display: none;
+    }
+    .header-menu nav span{
+        display: block;
+        justify-self: right;
+    }
+    .header-menu span:hover ul li{
+        display: block;
+    
+  }
+  
+  .hero-top{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .hero-btn{
+    display: block;
+  }
+  .about-top{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .about-btn{
+    display: block;
+    text-align: center;
+  }
+  .services-top{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .process-img{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .experience-top{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .portfolio-top{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .my-1st-portfolio{
+    text-align: center;
+  }
+  .pricing-top{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .pricing-btn{
+    display: block;
+  }
+  .footer-logo{
+    display: none;
+  }
+  .footer-email{
+    justify-self: right;
+  }
+  .footer-icon{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .touch-btn{
+    display: block;
+  }  
+
+}
+
+
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+@media (min-width: 0) and (max-width: 480px) {
+    .header-top{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .header-btn{
+        display: none;
+    }
+    .header-menu ul{
+        display: none;
+    }
+    .header-menu nav span{
+        display: block;
+    }
+    .header-menu:hover ul {
+        display: block;
+    }
+    .header-menu:hover ul li{
+        padding: 10px 0;
+    }
+
+
+    .hero-top{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .about-top{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      .about-btn{
+        display: block;
+        text-align: center;
+      }
+      .services-top{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .process-img{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      .experience-top{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      .portfolio-top{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      .pricing-top{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      .pricing-btn{
+        display: block;
+      }
+      .footer-logo{
+        display: none;
+      }
+      .footer-email{
+        justify-self: right;
+      }
+      .footer-icon{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      .touch-btn{
+        display: block;
+      } 
+
+}
+/* responsive design end */
